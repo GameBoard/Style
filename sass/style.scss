@@ -1,0 +1,13 @@
+// Screen
+// ======
+
+@import "grids";
+
+body{
+  @include container(100em); 
+}
+
+div{ 
+  background-color: #999999;
+  @include span(3);
+}
