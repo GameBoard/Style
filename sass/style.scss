@@ -2,12 +2,10 @@
 // ======
 
 @import "grids";
+@import "hero";
+@import "headers";
 
 body{
   @include container(100em); 
-}
-
-div{ 
-  background-color: #999999;
-  @include span(3);
+  margin: 0;
 }

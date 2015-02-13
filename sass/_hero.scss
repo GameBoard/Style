@@ -1,0 +1,13 @@
+.hero{
+  @include container(100%);
+  @include span(100%);
+  background-color: #444444;
+  height: 20em;
+  .logo{
+    background-color: #990000;
+    @include span(3 of 12);
+    position: relative;
+    left:10%;
+    top:30%;
+  }
+}
